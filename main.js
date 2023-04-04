@@ -218,9 +218,31 @@
 // greet("Ilemona");
 // greet("FrankMona");
 
-function add(a, b) {
-  return a + b;
-}
+// function add(a, b) {
+//   return a + b;
+// }
 
-const sum = add(5, 20);
-console.log(sum);
+// const sum = add(5, 20);
+// console.log(sum);
+
+// SCOPE
+// Block SCOPE
+// function SCOPE
+// global scope
+
+// Block scope -- allows const and let to be defined inside the block even the console.log must be inside the block {}
+
+// if (true) {
+//   const myName = "Frank";
+//   console.log(myName);
+// }
+
+// Function scope-- allows const and let to be defined inside the block even the console.log must be inside the block {}
+
+// function testfn(superhero) {
+//   console.log("welcome " + superhero);
+// }
+
+// testfn("Thor");
+// testfn("Batman");
+// testfn("Superman");
